@@ -25,6 +25,7 @@ For contact section I follow bootstrap guidance and copied some elements like ta
 For index section I used a text wrap to wrapped my image and pragraphs that discribe a littl bit about my self.
 For portfolio part grid systeme is used to stack the columns on extra small size by making one full-width while having marigin on the left and right side of it for other 
 breakpoints. In addition I used row, column, card body and card classes to have a responsive lay out. 
+
 ## Leason Learned
 Through the development of this resonsive website I got a lot of experiance on html, css and documents under bootstrap. As it is said mostly practice make perfect.
 Now I am by far better that where I were two weeks before. Now I develope my coding and knowledge and skill of developing a web site. Now I do have my own personal website. 
