@@ -1,17 +1,17 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <!-- viewport meta added for proper responsive behaviors! -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>My Profile</title>
-        <!-- Bootstrap CSS strylesheet link added! -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="style.css" rel="stylesheet">
-      </head>
+<head>
+    <meta charset="utf-8">
+    <!-- viewport meta added for proper responsive behaviors! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Profile</title>
+    <!-- Bootstrap CSS strylesheet link added! -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
 
 <body class="h-100">
     <!--Navbar with their own classes links migrated from bootstrap for proper responsive styling as a header! -->
@@ -21,27 +21,31 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a href="https://www.facebook.com/golden.debasu" class="fa fa-facebook"></a>
-        <a href="https://twitter.com/yedebkid" class="fa fa-twitter"></a>
-        <a href="https://github.com/bayleyegn100" class="fa fa-github"></a>
-        <a href="https://www.linkedin.com/in/debasu-bayleyegn-eyasu-a9105ba5/" class="fa fa-linkedin"></a>
-    
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <nav class="navbar-nav ml-auto">
-                <a class="nav-link" href="contact.html"><h2>Contact</h2></a>
-                <a class="nav-link" href="portfolio.html"><h2>Portfolio</h2></a>
-                <a class="nav-link" href="index.html"><h2>About</h2></a>
+                <a class="nav-link" href="contact.html">
+                    <h2>Contact</h2>
+                </a>
+                <a class="nav-link" href="portfolio.html">
+                    <h2>Portfolio</h2>
+                </a>
+                <a class="nav-link" href="index.html">
+                    <h2>About</h2>
+                </a>
             </nav>
         </div>
     </header>
     <!--container for padding the section element! -->
+
     <main class="container pt-4 mb h-100">
         <!--On an `xs` screen, content should take up the entire screen. While for other breakpoints it will have some margins on the left and right sides of the screen! -->
-        <section class="card col-12 bg-light col-sm-7">
+        <section class="card col-12 bg-light col-sm-10">
             <h1>Portfolio</h1>
             <hr>
             <!--grid systeme used to to stack the columns on extra small size by making one full-width while having marigin on the left and right side of it for other breakpoints. In addition I used card class! -->
             <div class="row">
+
                 <section class="col-lg-6">
                     <form class="card">
                         <h5 class="card-header">Job 1</h5>
@@ -72,7 +76,7 @@
                 </section>
                 <section class="col-lg-6">
                     <form class="card">
-                            <h5 class="card-header">Job 2</h5>
+                        <h5 class="card-header">Job 2</h5>
                         <aside class="card-body">
                             <p>
                                 Environment, Forest and Climate Change Commission | Addis Ababa, Ethiopia General
@@ -178,10 +182,27 @@
             </div>
         </section>
     </main>
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/golden.debasu" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/yedebkid" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://github.com/bayleyegn100" class="github"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/debasu-bayleyegn-eyasu-a9105ba5/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+        <a href="mailto:bayleyegn100@gmail.com" class="github"><i
+            class="fa fa-envelope-o"></i></a>
+        <!-- <a href="tel:+1-206-785-5195" class="phone"><i
+            class="fa fa-mobile"></i></a> -->
+
+    <!-- <div class="display:vertical-grid">
+            <a href="https://www.facebook.com/golden.debasu" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/yedebkid" class="fa fa-twitter"></a>
+            <a href="https://github.com/bayleyegn100" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/debasu-bayleyegn-eyasu-a9105ba5/" class="fa fa-linkedin"></a>
+            </div> -->
 
     <!--customized sticky footer! -->
-    <footer class="footer mt-auto py-3 bg-success border-top border-primary" style="border-width: 5px !important;">
-    </footer>
+    <!-- <footer class="footer mt-auto py-3 bg-success border-top border-primary" style="border-width: 5px !important;">
+    </footer> -->
     <!-- jQuery and bootstrap bundele links to displaye humburgure menu(hide elements of navbar) and others -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
