@@ -1,72 +1,92 @@
 <!doctype html>
 <html class="h-100" lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <!-- viewport meta added for proper responsive behaviors! -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>My Profile</title>
-    <!-- Bootstrap CSS strylesheet link added! -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="style.css" rel="stylesheet">
-  </head>
-  
-    <body class="h-100">
-      <!--Navbar with their own classes links migrated from bootstrap for proper responsive styling as a header! -->
-      <header class="navbar navbar-expand-lg navbar-light bg-success">
-        <span class="navbar-brand mb-0 h1" style="font-size: 25px;">Debasu B. Eyasu</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a href="https://www.facebook.com/golden.debasu" class="fa fa-facebook"></a>
-        <a href="https://twitter.com/yedebkid" class="fa fa-twitter"></a>
-        <a href="https://github.com/bayleyegn100" class="fa fa-github"></a>
-        <a href="https://www.linkedin.com/in/debasu-bayleyegn-eyasu-a9105ba5/" class="fa fa-linkedin"></a>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <nav class="navbar-nav ml-auto">
-                <a class="nav-link" href="contact.html"><h2>Contact</h2></a>
-                <a class="nav-link" href="portfolio.html"><h2>Portfolio</h2></a>
-                <a class="nav-link" href="index.html"><h2>About</h2></a>
-            </nav>
-        </div>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <!-- viewport meta added for proper responsive behaviors! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>My Profile</title>
+  <!-- Bootstrap CSS strylesheet link added! -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="h-100">
+  <!--Navbar with their own classes links migrated from bootstrap for proper responsive styling as a header! -->
+  <header class="navbar navbar-expand-lg navbar-light bg-success">
+    <span class="navbar-brand mb-0 h1" style="font-size: 25px;">Debasu B. Eyasu</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <nav class="navbar-nav ml-auto">
+        <a class="nav-link" href="contact.html">
+          <h2>Contact</h2>
+        </a>
+        <a class="nav-link" href="portfolio.html">
+          <h2>Portfolio</h2>
+        </a>
+        <a class="nav-link" href="index.html">
+          <h2>About</h2>
+        </a>
+      </nav>
+    </div>
+  </header>
   <!--container for padding the section element! -->
   <section class="container pt-4 mb">
 
-    <h1>About</h1>
-    <hr>
+
     <!--On an `xs` screen, content should take up the entire screen. While for other breakpoints it will have 
           some margins on the left and right sides of the screen. In addition I uset a wrap class to wrap image and text! -->
     <article class=" col-12 text-wrap col-sm-12 ">
-      <h5><strong style="color:blue">Nmae:</strong> Debasu Bayleyegn Eyasu<br><strong style="color:blue">
-        Date of Birth:</strong> 06/19/1978.</h5>
-      <img src="img/Mypicture.jpg" class="float-left mr-3" alt="My Picture" />
-      <p style="font-size: 20px; line-height: 2; ">Hey there! I hope every thing is well in your side. Try to walk through a short summry of my portfolio. 
-        <br>Originally, I am from Ethiopia. I moved to the United States of America two years before. 
-        Now I am working for HydromaxUSA as a gas leak survey technician. HydromaxUSA is a partner company
-        with Pegut Sound Energy.<br>
-        Parallel to my job I have been attending a full stuck wed development courses at University of Washington coding
-        bootcamp. The course is given online for six months. By now I do have a better coding knowledge and skill by
-        using <strong style="color: rgb(29, 176, 202);">, HTML, CSS, javascript, jquery and Web API (including server 
-        side and 3rd party API).</strong> With that knowledge and skills, I start developing a website, apps and APIs as 
-        indicated in my github Profile.<br> In addition with my teams <strong style="color: rgb(29, 176, 202);">
-        we develop a project entitled "Randome Act of Kindness" </strong> that incorporates all the above spacified elements.<br>
-        When I was in my country I had been working in different governmental institutions. Through the process I got
+      <h1>About</h1>
+      <hr>
+
+      <h5 class="facts"><strong>Name:</strong> Debasu B Eyasu<br> E-mail: <a
+          href="mailto:someone@example.com">bayleyegn100@gmail.com</a>
+        <br>Phone: +1-206-785-5195
+      </h5><br></div>
+      <img src="img/profile pic.jpg" class="float-left mr-3" alt="My Picture" />
+      <p style="font-size: 20px; line-height: 2; ">Hey there! Hope every thing is well in your side.
+        <br>Originally, I am from Ethiopia. Now I am living in Seattle, Washington, United States of America and working
+        for
+        HydromaxUSA as a Quality Control Analyst. HydromaxUSA is a partner company with Pegut Sound Energy.<br>
+        Parallel to my job I have been attending a full stuck wed development bootcamp course at University of
+        Washington.
+        By now I do have a better knowledge and skill of coding by using languages and technologies including but not
+        limited to the following:
+      </p>
+      <ul style="padding-left: 20px; font-size: 20px; line-height: 2; ">
+        <li>HTML and CSS</li>
+        <li>Bootstrap and jQuery</li>
+        <li>Javascript and Web-API</li>
+        <!-- <li>Node.js and npm packages</li>
+                    <li>Object Orianted Programing</li>
+                    <li>Express</li>
+                    <li>MySQL</li>
+                    <li>Model-View-Controller framework</li> -->
+      </ul>
+      <p>By using those technologies and languages I developed different application as indicated in Profile
+        section and my github page.<br><br>
+        Previously I had been working in different governmental institutions. Through the process I got
         multidisciplinary knowledge on Environmental Science, Climate Change, Public Relation and Communication,
         Multilateral Environmental Negotiation particularly on Climate Change/UNFCCC. I do also have better experience
-        on
-        managing and developing bankable projects. I do have advanced skills on Microsoft offices as well. I used to
-        teach mathematics for
-        high school preparatory students. I am also motivated to achieve objectives with utmost effective and
-        efficient leadership skill, integrated team spirit. <br>
+        on managing and developing bankable projects.
+        I am also motivated to achieve objectives with utmost effective and efficient leadership skill, integrated team
+        spirit. <br>
         I do have a master of science in Environmental Science and bachelor of degree in Mathematics. I am certified on
-        the following subject areas as well: Result Based Project Management and Strategic Planning;
-        Environmental Diplomacy Training; Communiction and Social Media Skills, Climate Diplomacy, Leadership and
-        Negotiation and Reporting on climate change.
+        the following subject areas as well: <br>
+        <ul style="padding-left: 20px; font-size: 20px; line-height: 2; ">
+        <li>Result Based Project Management and Strategic Planning;</li>
+        <li>Environmental Diplomacy Training; </li>
+        <li>Communiction and Social Media Skills, </li>
+        <li>Climate Diplomacy, Leadership and Negotiation and </li>
+        <li>Reporting on climate change.</li>
+      </ul>
 
       </p>
 
@@ -78,10 +98,10 @@
     <a href="https://twitter.com/yedebkid" class="twitter"><i class="fa fa-twitter"></i></a>
     <a href="https://github.com/bayleyegn100" class="github"><i class="fa fa-github"></i></a>
     <a href="https://www.linkedin.com/in/debasu-bayleyegn-eyasu-a9105ba5/" class="linkedin"><i
-            class="fa fa-linkedin"></i></a>
+        class="fa fa-linkedin"></i></a>
     <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
     <a href="mailto:bayleyegn100@gmail.com" class="github"><i class="fa fa-envelope-o"></i></a>
-</div>
+  </div>
   <!--customized sticky footer! -->
   <!-- <footer class="footer mt-auto py-3 bg-success border-top border-primary" style="border-width: 5px !important;">
 
