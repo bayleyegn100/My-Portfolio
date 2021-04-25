@@ -1,3 +1,5 @@
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
 # My-Portfolio
 
 ## Table of Content
@@ -11,6 +13,9 @@
 
 I developed a static personal website. It has my portfolio, about me and contact information. 
 It will let my information to be avialabe online. It serve as a begning to advance it in the near future. 
+![Inline Styled Page](img/portfolio.jpg)
+![Inline Styled Page](img/About.jpg)
+![Inline Styled Page](img/Contact.jpg)
 
 ## Motivation 
 
@@ -20,6 +25,7 @@ Now a days degitalization is step up dinamically. In this situation it is better
 ## Guidelines: 
 
 Go ahead and see my website!
+
 https://bayleyegn100.github.io/My-Portfolio/
 https://github.com/bayleyegn100/My-Portfolio
 
