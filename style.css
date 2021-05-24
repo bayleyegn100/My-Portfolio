@@ -16,14 +16,16 @@ article {
 text-align: center;
 }
 p {
-  font-size: 20px; 
+  font-size: 20px;
+  padding-left: 60px; 
+  padding-right: 30px;
   line-height: 1.5; 
-  font-display: justified;
+  font-display: inherit;
 }
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .fa {
   font-size: 30px;
-  width: 40px;
+  width: 50px;
    text-align: center;
   text-decoration: none;
   border-radius: 25%;
@@ -31,7 +33,7 @@ p {
 }
 .icon-bar {
   position: fixed;
-  top: 40%;
+  top: 55%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -44,7 +46,7 @@ p {
   text-align: center;
   padding: 3px;
   transition: all 0.3s ease;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   border-radius:1rem
 }
@@ -71,7 +73,7 @@ p {
 }
 
 .github {
-  /* background: #81c07b; */
+  background-color:#0dd8df;
   color: white;
 }
 .linkedin {
@@ -85,7 +87,7 @@ p {
 }
 .email {
   background-color:rgb(188, 221, 42);
-  color: white;
+  color: rgb(33, 110, 13);
 
 }
 
